@@ -9,26 +9,33 @@
 </head>
 <body>
     <form action="">
-        <h1>Produto</h1>
+        <h1>Carro</h1>
         <p>
-            <label for="nome">Nome</label>
+            <label for="nome">Marca: </label>
+        </p>
+        <p>
             <input type="text" name="nome" id="nome">
         </p>
         <p>
-            <label for="descricao">Descrição</label>
-            <input type="text" name="nome" id="descricao">
+            <label for="modelo">Modelo</label>
         </p>
         <p>
-            <label for="qtnd">Quantidade</label>
-            <input type="text" name="qtnd" id="qtnd">
+            <input type="text" name="modelo" id="modelo">
         </p>
         <p>
-            <label for="preco">Preço</label>
-            <input type="number" name="preco" id="preco" min="0" value="R$ " required>
+            <label for="placa">Placa</label>
         </p>
-        <button>Enviar
-        </button>
-        <p id="nome">
+        <p>
+            <input type="text" name="placa" id="placa" minlength="7" maxlength="8">
+        </p>
+        <p>
+            <label for="ano">Ano</label>
+        </p>
+        <p>
+            <input type="text" name="ano" id="ano">
+        </p>
+        <button>Enviar</button>
+        <p>
             <output></output>
         </p>
     </form>
