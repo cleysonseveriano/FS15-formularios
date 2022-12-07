@@ -21,8 +21,14 @@ form{
 
 }
 
-form p{
+form header p{
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+form p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -49,4 +55,28 @@ form select{
 form button input{
     border: none;
     width: 100px;
+}
+
+form input[type="radio"], form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+form .meia-label{
+    display: inline-block;
+    width: 40%;
+}
+
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(26, 26, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+
 }
